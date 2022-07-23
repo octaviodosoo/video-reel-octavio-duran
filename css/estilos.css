@@ -1,5 +1,6 @@
 * {
-	padding: 0;
+	padding: 0px 0px;
+
 	margin: 0;
 }
 
@@ -12,16 +13,16 @@ header {
 	background: #310019;
 	color: #fff;
 	text-align: center;
-	padding: 50px 0;
+	padding: 50px 10px;
 	height: 400px;
 	position: absolute;
 	top: 0;
 	width: 100%;
 }
 
-header .titulo {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 800;
+.logo {
+	padding: 0px 30px;
+	max-width: 350px;
 }
 
 main {
@@ -43,21 +44,21 @@ main .contenedor {
 }
 
 .od-video .vjs-control-bar {
-	background: #f4f4f4;
-	color: #2d5f85;
+	background: #9a0051;
+	color: #ffffff;
 }
 
 .od-video .vjs-play-progress,
 .od-video .vjs-volume-level {
-	background: #1d87d8;
+	background: #fab0d5;
 }
 
 .od-video .vjs-slider {
-	background: #2d5f85;
+	background: #3a125f;
 }
 
 .video-js:hover .vjs-big-play-button {
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(158, 12, 126, 0.911);
 }
 
 .od-video .vjs-big-play-button {
@@ -70,7 +71,7 @@ main .contenedor {
 }
 
 .od-video .vjs-big-play-button:hover {
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(104, 11, 50, 0.5);
 }
 
 article {
@@ -97,5 +98,10 @@ article h2 {
 
 	main {
 		margin-top: 50px;
+	}
+
+	img {
+		padding: 2px 5px;
+		height: 40px;
 	}
 }
