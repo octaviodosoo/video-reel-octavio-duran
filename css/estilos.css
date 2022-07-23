@@ -4,12 +4,12 @@
 }
 
 body {
-	background: #F4F4FA;
-    font-family: 'Open Sans', sans-serif;
+	background: #f4f4fa;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header {
-	background: #1D87D8;
+	background: #a10051;
 	color: #fff;
 	text-align: center;
 	padding: 50px 0;
@@ -20,8 +20,8 @@ header {
 }
 
 header .titulo {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 800;
 }
 
 main {
@@ -37,40 +37,40 @@ main .contenedor {
 /* ------------------------- */
 /* Estilos CSS del Reproductor */
 /* ------------------------- */
-.fm-video {
+.od-video {
 	width: 100%;
-	box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
 
-.fm-video .vjs-control-bar {
-	background: #F4F4F4;
+.od-video .vjs-control-bar {
+	background: #f4f4f4;
 	color: #2d5f85;
 }
 
-.fm-video .vjs-play-progress,
-.fm-video .vjs-volume-level {
+.od-video .vjs-play-progress,
+.od-video .vjs-volume-level {
 	background: #1d87d8;
 }
 
-.fm-video .vjs-slider {
+.od-video .vjs-slider {
 	background: #2d5f85;
 }
 
 .video-js:hover .vjs-big-play-button {
-	background: rgba(0,0,0,.2);
+	background: rgba(0, 0, 0, 0.2);
 }
 
-.fm-video .vjs-big-play-button {
-	background: rgba(0,0,0,.2);
+.od-video .vjs-big-play-button {
+	background: rgba(0, 0, 0, 0.2);
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
 	border-radius: 100%;
-	border:none;
+	border: none;
 }
 
-.fm-video .vjs-big-play-button:hover {
-	background: rgba(0,0,0,.5);
+.od-video .vjs-big-play-button:hover {
+	background: rgba(0, 0, 0, 0.5);
 }
 
 article {
@@ -83,7 +83,7 @@ article {
 }
 
 article h2 {
-	color: #2D5F85;
+	color: #2d5f85;
 	font-size: 32px;
 	font-weight: normal;
 	margin-bottom: 20px;
